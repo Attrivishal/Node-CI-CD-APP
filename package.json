@@ -1,0 +1,21 @@
+{
+  "name": "my-node-ci-cd-app",
+  "version": "1.0.0",
+  "description": "A Node.js REST API with automated CI/CD using GitHub Actions and Render.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest"
+  },
+  "keywords": ["nodejs", "express", "ci-cd", "github-actions", "devops"],
+  "author": "Vishal Attri",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "jest": "^30.2.0",
+    "supertest": "^7.1.4"
+  }
+}
